@@ -1,0 +1,122 @@
+body {
+    background: #cccccc;
+}
+
+pre {
+    -webkit-user-select: text;
+}
+
+hr {
+    border-top: 1px solid #3b67bf;
+}
+
+*:focus {
+    outline: none;
+}
+
+select, option {
+    font-family: Arial;
+    color: #3b67bf;
+    font-size: 14px;
+    background: rgba(0,0,0,0);
+    padding: 5px 10px 5px 10px;
+    border: solid #3b67bf 2px;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.btn-blue {
+    font-family: Arial;
+    color: #3b67bf;
+    font-size: 14px;
+    background: rgba(0,0,0,0);
+    padding: 4px 8px 4px 8px;
+    border: solid #3b67bf 2px;
+    text-decoration: none;
+    margin-right: 10px;
+    transition: all .1s linear;
+}
+
+.btn-blue:hover {
+    color: white;
+    background: #3b67bf;
+    text-decoration: none;
+}
+
+.btn-blue:disabled {
+    color: lightgray;
+    background: repeating-linear-gradient(
+            45deg,
+            #3b67bf,
+            #3b67bf 5px,
+            #465298 5px,
+            #465298 10px
+    );
+    text-decoration: none;
+}
+
+.btn-blue:active {
+    background: rgba(255,255,255,0.1);
+}
+
+.btn-green {
+    font-family: Arial;
+    color: #007a00;
+    font-size: 14px;
+    background: rgba(0,0,0,0);
+    padding: 4px 8px 4px 8px;
+    border: solid #007a00 2px;
+    text-decoration: none;
+    margin-right: 10px;
+    transition: all .1s linear;
+}
+
+.btn-green:hover {
+    color: white;
+    background: #007a00;
+    text-decoration: none;
+}
+
+.btn-green:disabled {
+    color: lightgray;
+    background: repeating-linear-gradient(
+            45deg,
+            #007a00,
+            #007a00 5px,
+            #005300 5px,
+            #005300 10px
+    );
+    text-decoration: none;
+}
+
+.btn-green:active {
+    background: rgba(255,255,255,0.1);
+}
+
+.btn-orange {
+    font-family: Arial;
+    color: #ffa500;
+    font-size: 14px;
+    background: rgba(0,0,0,0);
+    padding: 4px 8px 4px 8px;
+    border: solid #ffa500 2px;
+    text-decoration: none;
+    margin-right: 10px;
+    transition: all .1s linear;
+}
+
+.btn-orange:hover {
+    color: white;
+    background: #ffa500;
+    text-decoration: none;
+}
+
+.btn-orange:disabled {
+    color: lightgray;
+    background: #ffa500;
+    text-decoration: none;
+}
+
+.btn-orange:active {
+    background: rgba(255,255,255,0.1);
+}
